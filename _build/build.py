@@ -13,7 +13,7 @@ e = lambda s: html.escape(str(s), quote=True)
 PROJECTS = [
     ("100-free-admin-dashboards", "100 Free Admin Dashboards", "Templates", 100, "dashboards, 3,400+ pages",
      "Complete admin dashboards with more than 30 pages each, light and dark themes.", "work-dashboard"),
-    ("100-free-ai-ui-components", "100 Free AI UI Components", "Components", 90, "components so far",
+    ("100-free-ai-ui-components", "100 Free AI UI Components", "Components", 100, "components",
      "Prompt boxes, thinking states, token meters and more for AI apps. One file each.", "work-ai-ui"),
     ("tantu-c-framework", "Tantu C Framework", "Tools", None, "",
      "A free website builder and web framework written in C. Markdown in, fast website out.", "tantu-c-framework"),
