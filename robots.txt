@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mmrahmanbappi.github.io/tantu-c-framework/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/100-free-admin-dashboards/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/100-free-html-templates/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/100-css-designs/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/100-free-data-charts/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/100-free-404-pages/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/100-vanilla-javascript-projects/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/chrome-extensions/sitemap.xml
+Sitemap: https://mmrahmanbappi.github.io/sitemap.xml
