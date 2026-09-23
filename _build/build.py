@@ -180,9 +180,9 @@ def footer():
 ARROW = '<span class="arr" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>'
 
 FAQ = [
-    ("Are these projects really free?", "Yes. You can use them in personal and business projects without paying. Most use the MIT license, and each repository states its license."),
+    ("Are these projects really free?", "Yes. You can use them in personal and business projects without paying. Every project uses the MIT license."),
     ("Do I need to sign up or install anything?", "No. Most projects are plain HTML, CSS and JavaScript. Open the file in a browser, or copy it into your site."),
-    ("Can I use them for client work?", "Yes, for the MIT licensed projects. Please keep the license file, and check the license of each repository before you start."),
+    ("Can I use them for client work?", "Yes. Every project uses the MIT license, so client work is fine. Please keep the license file in your copy."),
     ("Can I ask for a new template or report a problem?", "Yes. Open an issue in the GitHub repository of the project, and describe what you need or what went wrong."),
 ]
 
@@ -225,7 +225,7 @@ def build():
 <div class="facts"><div class="wrap"><ul>
   <li><b>{len(PROJECTS)}</b><span>open source projects</span></li>
   <li><b>3,400+</b><span>dashboard pages</span></li>
-  <li><b>MIT</b><span>license on most projects</span></li>
+  <li><b>MIT</b><span>license on every project</span></li>
   <li><b>0</b><span>sign ups needed</span></li>
 </ul></div></div>
 <section class="band" id="projects"><div class="wrap">
