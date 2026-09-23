@@ -150,6 +150,7 @@ def head(title, desc, canonical, robots="index, follow, max-image-preview:large"
 <link rel="canonical" href="{canonical}">
 <meta name="robots" content="{robots}">
 <meta name="author" content="MM Rahman Bappi">
+<meta name="google-site-verification" content="EdQnmMm0GrLQwKq68IV93Hme8d_v_VqttuBuuhwqx68" />
 <meta name="theme-color" content="#eeeeea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#141316" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website"><meta property="og:site_name" content="MM Rahman Bappi">
