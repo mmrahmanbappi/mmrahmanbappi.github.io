@@ -3,6 +3,7 @@ Edit PROJECTS below to add a project, then run: python3 _build/build.py"""
 import html
 import json
 import os
+from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B = "https://mmrahmanbappi.github.io"
@@ -276,8 +277,19 @@ bs.forEach(function(b){{b.addEventListener('click',function(){{bs.forEach(functi
 </body></html>
 """
     open(os.path.join(ROOT, "404.html"), "w").write(page404)
-    open(os.path.join(ROOT, "robots.txt"), "w").write("User-agent: *\nAllow: /\n\n" + "\n".join(f"Sitemap: {B}/{p[0]}/sitemap.xml" for p in PROJECTS) + f"\nSitemap: {B}/sitemap.xml\n")
-    print("built: index.html, 404.html, robots.txt |", len(PROJECTS), "projects,", TOTAL, "free files | title", len(TITLE), "| desc", len(DESC))
+    # One sitemap index: submit only this one in Search Console and every
+    # project's own sitemap (and every page inside it) is picked up too.
+    today = date.today().isoformat()
+    child_sitemaps = [f"{B}/sitemap-home.xml"] + [f"{B}/{p[0]}/sitemap.xml" for p in PROJECTS]
+    open(os.path.join(ROOT, "sitemap.xml"), "w").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"  <sitemap>\n    <loc>{u}</loc>\n    <lastmod>{today}</lastmod>\n  </sitemap>\n" for u in child_sitemaps)
+        + "</sitemapindex>\n")
+    open(os.path.join(ROOT, "sitemap-home.xml"), "w").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"  <url><loc>{B}/</loc><lastmod>{today}</lastmod></url>\n</urlset>\n")
+    open(os.path.join(ROOT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {B}/sitemap.xml\n")
+    print("built: index.html, 404.html, robots.txt, sitemap.xml (index of", len(child_sitemaps), "sitemaps) |", len(PROJECTS), "projects,", TOTAL, "free files | title", len(TITLE), "| desc", len(DESC))
 
 
 if __name__ == "__main__":

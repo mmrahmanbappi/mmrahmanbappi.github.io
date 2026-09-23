@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mmrahmanbappi.github.io/</loc></url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/sitemap-home.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/100-free-admin-dashboards/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/100-free-ai-ui-components/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/tantu-c-framework/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/100-free-html-templates/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/100-css-designs/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/70-free-data-charts/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/100-free-404-pages/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/100-vanilla-javascript-projects/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://mmrahmanbappi.github.io/chrome-extensions/sitemap.xml</loc>
+    <lastmod>2026-09-23</lastmod>
+  </sitemap>
+</sitemapindex>
