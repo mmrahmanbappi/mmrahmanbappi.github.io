@@ -2,7 +2,6 @@
 
 Home page for all projects (built with `python3 _build/build.py`), plus redirects for projects that moved to a new address:
 
-- `/tantu/` now goes to `/tantu-c-framework/`
 - `/seo-tools/` now goes to `/chrome-extensions/`
 - `/seo-chrome-extensions/` now goes to `/chrome-extensions/`
 - `/vanilla-javascript-projects/` now goes to `/100-vanilla-javascript-projects/`
